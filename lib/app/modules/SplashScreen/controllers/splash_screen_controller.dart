@@ -14,9 +14,9 @@ class SplashScreenController extends GetxController {
 
   @override
   void onReady() {
-    Timer(Duration(seconds: 3), () {
-      Get.offAll(HomeScreen());
-    });
+    // Timer(Duration(seconds: 3), () {
+    //   Get.offAll(HomeScreen());
+    // });
     super.onReady();
   }
 
